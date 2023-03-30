@@ -1,0 +1,573 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+            /*  ---------------------navigation---------------------- */
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+    padding: 20px;
+}
+li{
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+                /*---------------------section 1---------------------- */
+
+.sec{
+    background-image: url('image/imagePrincipal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 670PX;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img{border-radius: 22px;} 
+
+.p{
+    
+    background-color: #605555;
+    padding: 25px;
+    font-size: 20px;
+    color: white;
+    width: 20%;
+    text-align: center;
+}
+
+.pas{
+     color: white;
+    text-align: center; 
+}
+                    /*---------------------section 2----------------------*/
+
+.sect{
+    height: 670PX;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+   
+}
+
+.parie{
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.span{
+    padding: 80px;
+    border: 1px solid 
+    #369E8A;
+    border-radius: 50%;
+
+}
+
+.blod{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pari, .part{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    color: black;
+    display: flex;
+}
+                    /*---------------------section 3----------------------*/
+
+.secte{
+    background-color: #C4C4C4
+    ;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     gap: 50px; 
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.ALIG{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+                        /*    <!---------------------section 4----------------------> */
+.collape{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+                        
+.section3 .image-1 img, .section3 .image-2 img{
+    width: 200px;
+    height: 150px; 
+}
+.section3 .image-1, .section3 .image-2{
+    display: flex;
+}
+.section3 .image-1 div, .section3 .image-2 div{
+    min-width: 396px;
+    flex-wrap: wrap;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    position: relative;
+} 
+                        
+                        
+.section3 .image-1 .wordpress{
+    background-color: #83CBCF;
+}
+
+.section3 .image-1 .html{
+    background-color: #67B4CC;
+}
+
+.section3 .image-1 .canva{
+    background-color: #717967;
+}
+
+.section3 .image-1 .jz{
+    background-color: #649A97;
+}
+
+.section3 .image-2 .java{
+    background-color: #827263;
+}
+
+.section3 .image-2 .inskap{
+    background-color: #35A0AE;
+}
+
+.section3 .image-2 .ae{
+    background-color: #237792;
+}
+
+.section3 .image-2 .python{
+    background-color: #A5C0AD;
+}
+                            /*---------------------section 5----------------------> */
+
+.sected{
+    height: 500px;
+    width: 100%;
+    }
+                             
+    .Pare{
+    text-align: center;
+    margin-top: 60px;
+}
+                            
+.bld{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.bop{
+    margin-top: 30px;}
+.papa{
+margin-top: 80px;
+font-size: 20px;
+}
+                            
+.meta, .Meta{
+display: flex;}
+.ceter{
+display: flex;
+    flex-direction: column;
+justify-content: center;
+width: 100%;
+align-items: center;
+gap: 15px;}  
+.str{
+                            
+ margin-right: 450px;
+font-weight: bold;}
+.stro{
+margin-right: 480px;
+font-weight: bold;}
+.sto{
+margin-right: 410px;
+font-weight: bold;
+}
+                            
+.barre{
+    width: 70%; 
+    height: 15px;
+    background-color: rgb(231, 247, 247);
+    border-radius: 20px;
+    text-align: right;
+    text-align: center;
+}
+                            
+.bar{
+    width: 100%; 
+    height: 15px;
+    background-color: #A5C0AD;
+                              
+    border-radius: 20px;
+}
+.bBr{
+    width: 90%; 
+    height: 15px;
+    background-color: #A5C0AD;
+    border-radius: 20px;
+                               
+}
+                            
+.bAr{
+     width: 80%; 
+    height: 15px;
+    background-color: #A5C0AD;
+                              
+    border-radius: 25px;
+                              
+}
+                            
+.bbr{
+    width: 75%; 
+    height: 15px;
+    background-color: #A5C0AD;
+    border-radius: 20px;
+} 
+                            
+.at{
+     position: absolute;
+    right: 920px;
+}
+                            
+.ate{
+    position: absolute;
+    right: 130px;
+}
+                                /*---------------------section 6---------------------- */
+.pert{height: 140px;}
+
+.sectio{
+    background-color:  #A5C0AD;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 40px;
+    height: 850px;
+    width: 100%;
+}
+
+.top{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.partie{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.partie1:hover, .partie2:hover, .partie3:hover, .partie4:hover{
+    margin-top: 15px;
+}
+
+.partie1,  .partie2,  .partie3,  .partie4{
+    display: flex;
+    flex-direction: column;
+ } 
+ 
+.PART{
+    background-color: #827474;
+    padding: 60px}
+
+.PART1{
+     background-color:  #D38989;
+     padding:60px}
+
+.PART2{
+    background-color: #B3D3C4;
+    padding:60px}
+
+.PART3{
+    background-color: #DBBA9F;
+    padding:60px}
+
+.marg{
+     color: #000;
+     text-align: center;
+    padding: 30px;
+    background: linear-gradient(#fff, #fff);
+}                               
+                        /*---------------------section 7--------------------->*/ 
+
+.setio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        height: 500px;
+        width: 100%;
+    } 
+    
+.pass{
+     margin-top: 50px;
+     background-color: white;
+    padding: 5px;
+     width: 5%;
+} 
+    
+.passe{
+     margin-top: 100px;
+     text-align: center;
+}
+    
+.passer{
+     margin-top: 100px;
+    font-weight: bold;
+    }
+
+.pat{
+    margin-right: 80px;
+}
+                        /* ---------------------footer---------------------- */
+
+footer{
+ background: rgba(196, 196, 196, 0.35);
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+.contaner{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    justify-content: center;
+}
+
+h1{
+    margin-top: 50px;
+}
+ .colom{
+    display: flex;
+    justify-content: center;
+    gap: 100px;  
+} 
+
+.mopere{display: none;}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Blog{
+    font-size: 0.7em;
+    margin-top: 80px;
+}
+ 
+            /*-------------responsive-----------*/
+
+    @media screen and (max-width: 900px){
+        nav{
+            display: inline-block;
+            text-align: center;
+            width: 100%;
+           height: 310px;
+            margin-top: 20px;
+        }
+        ul{
+           display: inline-block; 
+           padding: 0;
+        }
+        .img{
+            width: 60%;border-radius: 10px;
+        }
+        .p{width: 50%; font-size: 0.8em;}
+        .sec{
+            height: 400px;
+            width: 100%;
+            align-items: center;
+            gap: 15px;
+        }        
+   
+        .sect{
+                width: 100%;
+                height: 400px;
+                display: inline;
+                gap: 10px;
+                font-size: 0.5em;
+               
+            }
+            .span{
+                padding: 30px;
+            }
+            .text{
+                width: 80%;
+            }
+            .pari, .part, .parie{
+                display: flex;
+                gap: 10Px;
+                margin-top: 25px;
+                margin-bottom: 20px;
+            }
+            .blod{
+                font-size: 0.8em;
+            }
+            .secte{
+                width: 100%;
+            }
+
+            
+     .ALIG{
+        display: inline;
+        /* white-space: nowrap; */
+        font-size: 0.3em;
+        margin-bottom: 30px;
+    } 
+    .bold{
+        margin-top: 20px;
+    }
+.lang, .lanc{
+    display: flex;
+    flex-direction: column;
+
+}
+.lom{
+    width: 95%;
+}
+.pare
+ 
+
+.meta, .Meta{display: flex;
+    flex-direction: column;
+}
+.str{
+
+     margin-right: 190px; 
+    font-weight: bold;
+    margin-top: 10px;
+}
+.stro{
+    margin-right: 210px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.sto{
+    margin-right: 150px;
+    font-weight: bold;
+}
+
+.at{
+    position: absolute;
+    right: 75px;
+}
+
+.ate{
+    position: absolute;
+    right: 70px;
+    margin-top: 75PX;
+}
+
+ .sected{width: 100%; margin-bottom: 50px;}
+ .partie{display: inline-block;}
+ .setio{ margin-top: 350%;  width: 100%; 
+height: 500px; }
+ .pass{ width: 20%;}
+ .passe, .pase{
+    width: 90%;
+    margin-top: 20px;
+ }
+ .passer, .passe{display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+}
+.colom{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contaner{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+}
+.section3 .image-1{
+    flex-direction: column;
+    width: 100%;
+    
+}
+.section3 .image-2{
+   flex-direction: column;
+   width: 100%;
+    
+}
+.section3 .image-1 img, .section3 .image-2 img{
+    width: 80px;
+    height: 100px; 
+    }
+.section3 .image-1 div, .section3 .image-2 div{
+    min-width: 0px; 
+    min-height: 200px;
+}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
