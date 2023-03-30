@@ -403,8 +403,8 @@ h1{
     font-size: 0.7em;
     margin-top: 80px;
 }
- 
-            /*-------------responsive-----------*/
+/*  
+            /*-------------responsive-----------
 
     @media screen and (max-width: 900px){
         nav{
@@ -459,7 +459,7 @@ h1{
             
      .ALIG{
         display: inline;
-        /* white-space: nowrap; */
+     
         font-size: 0.3em;
         margin-bottom: 30px;
     } 
@@ -555,7 +555,170 @@ height: 500px; }
     min-width: 0px; 
     min-height: 200px;
 }
-    }
+    } */
+              /*-------------responsive-----------*/
+
+              @media screen and (max-width: 900px){
+                nav{
+                    display: inline-block;
+                    text-align: center;
+                    width: 100%;
+                   height: 310px;
+                    margin-top: 20px;
+                }
+                ul{
+                   display: inline-block; 
+                   padding: 0;
+                }
+                .img{
+                    width: 60%;border-radius: 10px;
+                }
+                .p{width: 50%; font-size: 0.8em;}
+                .sec{
+                    height: 400px;
+                    width: 100%;
+                    align-items: center;
+                    gap: 15px;
+                }        
+           
+                .sect{
+                        width: 100%;
+                        height: 400px;
+                        display: inline;
+                        gap: 10px;
+                        font-size: 0.5em;
+                       
+                    }
+                    .span{
+                        padding: 30px;
+                    }
+                    .text{
+                        width: 80%;
+                    }
+                    .pari, .part, .parie{
+                        display: flex;
+                        gap: 10Px;
+                        margin-top: 25px;
+                        margin-bottom: 20px;
+                    }
+                    .blod{
+                        font-size: 0.8em;
+                    }
+                    .secte{
+                        width: 100%;
+                    }
+        
+                    
+             .ALIG{
+                display: inline;
+                /* white-space: nowrap; */
+                font-size: 0.3em;
+                margin-bottom: 30px;
+            } 
+            .bold{
+                margin-top: 20px;
+            }
+        .lang, .lanc{
+            display: flex;
+            flex-direction: column;
+        
+        }
+        .lom{
+            width: 95%;
+        }
+        .pare
+         
+        .MER, .MRR, .PRS, .PZS, .PES{width: 44%;}
+        .MZR{width:52% ;}
+        .PTS{width:56%} .MAR{width: 45%;} 
+        .papa{display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+        .meta, .Meta{display: flex;
+            flex-direction: column;
+        }
+        .str{
+        
+             margin-right: 190px; 
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .stro{
+            margin-right: 210px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .sto{
+            margin-right: 150px;
+            font-weight: bold;
+        }
+        
+        .at{
+            position: absolute;
+            right: 75px;
+        }
+        
+        .ate{
+            position: absolute;
+            right: 70px;
+            margin-top: 75PX;
+        }
+        
+         .sected{width: 100%; margin-bottom: 50px;}
+         .partie{display: inline-block;}
+         .setio{ margin-top: 350%;  width: 100%; 
+        height: 500px; }
+         .pass{ width: 20%;}
+         .passe, .pase{
+            width: 90%;
+            margin-top: 20px;
+         }
+         .passer, .passe{display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-top: 20px;
+        }
+        .colom{
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .bop{
+            width: 80%;
+            text-align: center;
+        }
+        .papa
+        
+        .contaner{
+            
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            justify-content: center;
+        }
+        .section3 .image-1{
+            flex-direction: column;
+            width: 100%;
+            
+        }
+        .section3 .image-2{
+           flex-direction: column;
+           width: 100%;
+            
+        }
+        .section3 .image-1 img, .section3 .image-2 img{
+            width: 80px;
+            height: 100px; 
+            }
+        .section3 .image-1 div, .section3 .image-2 div{
+            min-width: 0px; 
+            min-height: 200px;
+        }
+            }
 
 
 
